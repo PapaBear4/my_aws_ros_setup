@@ -13,7 +13,7 @@ sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31
 #update the package list and get stuff installed (this step takes a while)
 apt update
 apt dist-upgrade -y
-apt install xrdp cinnamon firefox ros-noetic-desktop-full python3-rosdep
+apt install xrdp cinnamon firefox ros-noetic-desktop-full python3-rosdep -y
 echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 
