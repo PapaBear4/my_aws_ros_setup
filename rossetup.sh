@@ -1,8 +1,7 @@
 #! /bin/bash
 # this is a setup script to be run at the initiation of an AWS instance that will get it ready to run ROS noetic
 # cp this into the cmd line to run the script
-# $wget -O - https://raw.githubusercontent.com/<username>/<project>/<branch>/<path>/<file> | sudo bash
-
+# $wget -O - https://raw.githubusercontent.com/PapaBear4/my_aws_ros_setup/main/rossetup.sh | sudo bash
 
 #first, set your user password so you can log in via RDP once all this is done
 passwd ubuntu
