@@ -14,4 +14,4 @@ sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31
 apt update
 apt dist-upgrade -y
 apt install xrdp cinnamon firefox ros-noetic-desktop-full python3-rosdep -y
-echo "done setting up"
+echo "Done installing ROS.  Please set your password, reboot your machine, and log in from RDP."
