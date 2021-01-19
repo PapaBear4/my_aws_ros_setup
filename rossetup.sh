@@ -25,4 +25,6 @@ catkin_make
 #source the new workspace
 source devel/setup.bash
 
+echo $ROS_PACKAGE_PATH
+
 #now you're ready to go!
