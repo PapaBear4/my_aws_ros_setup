@@ -9,6 +9,7 @@ sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /
 sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
 
 #update the package list and get stuff installed (this step takes a while)
+apt update
 apt install firefox ros-noetic-desktop-full python3-rosdep -y
 snap install code --classic
-echo "Done installing ROS.  Please set your password, reboot your machine, and log in from RDP."
+echo "Done installing ROS."
